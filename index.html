@@ -592,7 +592,9 @@
     text-align:center;
   }
 
+  /* 액자를 녹일 때는 두 겹을 다 녹여야 .ask-stage 의 gap 이 산다. */
   .ask-frame{display:contents;}
+  .ask-frame-in{display:contents;}
   #scr-ask.ending .ask-frame{
     display:block; width:100%; max-width:334px;
     --card-pad:34px 18px 30px;
